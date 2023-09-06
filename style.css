@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+    /* display: block; */
+}
+
+/* Backgroun-image, Backgroun-repeat, Backgroun-position,*/
+
+body{
+    background-image:url("./assets/map1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: none;
+    position: relative;
+}
+
+
+/* img { */
+    /* position: absolute;
+    top:100px;
+    left:100px; */
+
+/* } */
+
+.visible {
+visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+
+}
